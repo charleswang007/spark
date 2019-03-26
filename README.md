@@ -1,7 +1,7 @@
 # Apache Spark
 
 ## Hadoop vs. Spark
-![hadoop_vs_spark](/images/hadoop_vs_spark.png)
+![hadoop_vs_spark](/images/hadoop_vs_spark.PNG)
 
 ## Speed
 根據 Apache Spark 官方網站的說明，Spark 在記憶體內執行運算時，最快可以比 Hadoop MapReduce 快100倍。即使與 MapReduce 一樣將運算結果儲存在硬碟上，運算速度也可以快上10倍。Spark 是基於記憶體內的計算框架。Spark 在運算時，將中間產生的資料暫存在記憶體中，因此可以加快執行速度。尤其需要反覆操作的次數越多，所需讀取的資料量越大，則越能看出 Spark 的效能，而 Hadoop 每次做完一次運算就必須做硬碟 I/O。
@@ -38,24 +38,24 @@ Spark 是由 Scala 撰寫而成，嚴格遵守 Functional Program 的概念，�
 RDD 具有的特性：Immutable, Distributed, Parallelizing
 
 ## Example: 讀取HDFS檔案，將內容轉成小寫並且以空白為分割符號將每個字切開，對文字與數字分別進行計算
-![wordcount](/images/wordcount.png)
+![wordcount](/images/wordcount.PNG)
 ![rdd_lineage](/images/rdd_lineage.png)
 
 ## Example: wordcount with spark shell
-![shell](/images/shell1.png)
-![shell](/images/shell2.png)
+![shell](/images/shell1.PNG)
+![shell](/images/shell2.PNG)
 (計算README.md內以行(row)為比較單位，每行最多有幾個字)
-![shell](/images/shell3.png)
+![shell](/images/shell3.PNG)
 (列印出RDD內容)
-![shell](/images/shell4.png)
+![shell](/images/shell4.PNG)
 
 ## Example: mapreduce
-![mapreduce](/images/mapreduce.png)
+![mapreduce](/images/mapreduce.PNG)
 
 ## Example: spark-submit | Spark Hellow World API
-![spark-submit](/images/spark-submit1.png)
-![spark-submit](/images/spark-submit2.png)
-![spark-submit](/images/spark-submit3.png)
+![spark-submit](/images/spark-submit1.PNG)
+![spark-submit](/images/spark-submit2.PNG)
+![spark-submit](/images/spark-submit3.PNG)
 
 ## Spark SQL
 Spark SQL 是 Spark 用來執行 SQL 語法查詢的一種功能，也支援 HiveQL 查詢語法，可透過 Spark application 撰寫程式對使用 Hive 建立的 Table 進行查詢。
