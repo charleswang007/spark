@@ -75,4 +75,5 @@ Spark Shell 可以讓使用者快速了解如何撰寫 RDD 並得到結果，不
 
 ## Reference
 [https://ithelp.ithome.com.tw/articles/10192216](https://ithelp.ithome.com.tw/articles/10192216)
+
 [https://medium.com/@kstseng/spark-%E8%B6%85%E5%85%A5%E9%96%80%E7%AD%86%E8%A8%98-6d06911cdbdf](https://medium.com/@kstseng/spark-%E8%B6%85%E5%85%A5%E9%96%80%E7%AD%86%E8%A8%98-6d06911cdbdf)
